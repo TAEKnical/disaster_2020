@@ -17,7 +17,7 @@ class getMsg extends React.Component {
                     }
                 }
             }
-        } = await axios.get("http://apis.data.go.kr/1741000/DisasterMsg2/getDisasterMsgList?ServiceKey=키값&type=json&pageNo=1&numOfRows=100&flag=Y");
+        } = await axios.get("http://apis.data.go.kr/1741000/DisasterMsg2/getDisasterMsgList?ServiceKey=vs4NSdPFhuePI61%2B9%2F5%2BSY%2Bg4TqUWjGdmL9IzK9YWnwG%2F3%2BlG3RQc68pxZZsK2yn2YZL1elsRCEn%2Fs4vx1j0zQ%3D%3D&type=json&pageNo=1&numOfRows=100&flag=Y");
         this.setState({isLoading:false, row})
     }
 
